@@ -1,13 +1,14 @@
 {
-	"name": "imcrypt",
+	"name": "cryptpic",
 	"description": "An image encryption node-js cli",
 	"version": "1.0.1",
 	"license": "MIT",
 	"bin": {
-		"imcrypt": "index.js"
+		"cryptpic": "index.js"
 	},
 	"author": "Srijon Dutta Chowdhury",
 	"keywords": [
+		"cryptpic",
 		"encrypt",
 		"decrypt",
 		"image",
@@ -39,10 +40,10 @@
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/TheNinza/imcrypt.git"
+		"url": "git+https://github.com/geekHead-DD/cryptpic"
 	},
 	"bugs": {
-		"url": "https://github.com/TheNinza/imcrypt/issues"
+		"url": "https://github.com/geekHead-DD/cryptpic"
 	},
-	"homepage": "https://github.com/TheNinza/imcrypt#readme"
+	"homepage": "https://github.com/geekHead-DD/cryptpic#readme"
 }
