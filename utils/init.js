@@ -6,7 +6,7 @@ module.exports = ({ clear = true }) => {
 	unhandled();
 	welcome({
 		title: `cryptpic`,
-		tagLine: `by Srijon`,
+		tagLine: `by Srijon Chowdhury and Souradeep Mukherjee`,
 		description: pkg.description,
 		version: pkg.version,
 		bgColor: '#36BB09',
