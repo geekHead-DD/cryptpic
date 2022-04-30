@@ -17,19 +17,19 @@ A CLI that encrypts and decrypts png, jpg, jpeg images to a gibberish image and 
 ## Installation
 
 ```sh
-npm i -g imcrypt
+npm i -g cryptpic
 ```
 
 ## Usage
 
 ```sh
-imcrypt <command> [option]
+cryptpic <command> [option]
 ```
 
 or run it directly using npx
 
 ```sh
-npx imcrypt <command> [option]
+npx cryptpic <command> [option]
 ```
 
 ### commands
