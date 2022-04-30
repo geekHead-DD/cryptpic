@@ -47,7 +47,7 @@ help  #prints help info
   --noClear                  # Don't clear the console Default: true
   -v, --version              # Print CLI version Default: false
   -k, --key                  # The key to use for decryption Default: false
-  -i, --outputImageFileName  # The output image
+  -o, --outputImageFileName  # The output image
   -p, --outputKeyFileName    # The output key
 ```
 
@@ -58,7 +58,7 @@ Command
 ### For encrypting an image myImage.png to encryptedImage.png and saving the key to key.txt
 
 ```sh
-cryptpic -e myImage.png -i encryptedImageName.png -p keyFile.txt
+cryptpic -e pic.png -o cipher.png -p key.txt
 ```
 
 output
@@ -86,7 +86,7 @@ An image encryption node-js cli
 ### For decrypting an image encryptedImage.png with its key key.txt to decryptedImage.png
 
 ```sh
-cryptpic -d encryptedImage.png -k key.txt -i decryptedImage.png
+cryptpic -d cipher.png -k key.txt -i unlocked.png
 ```
 
 output
