@@ -160,13 +160,13 @@ const encrypt = async flags => {
 
 		// generate random key for encryption for each pixel between 0 and 255
 		const key = [];
-		for (let i = 0; i < length; i++) {
-			// key.push(Math.floor(Math.random() * 256));
-			var hash = 0;
-			char = string.charCodeAt(i);
-            hash = ((hash << 5) - hash) + char;
-            hash = hash & hash;
-			key.push(hash);
+		for (let i = 0; i < rgba.length; i++) {
+			key.push(Math.floor(Math.random() * 256));
+			// var hash = 0;
+			// ch = i.toString().charCodeAt(i);
+			// hash = ((hash << 5) - hash) + ch;
+			// hash = hash & hash;
+			// key.push(hash);
 		}
 
 		spinner5.succeed(`Key generated successfully`);
