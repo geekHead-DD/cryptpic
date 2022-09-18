@@ -1,7 +1,7 @@
 {
 	"name": "cryptpic",
 	"description": "An image encryption node-js cli",
-	"version": "0.0.6",
+	"version": "0.0.8",
 	"license": "MIT",
 	"bin": {
 		"cryptpic": "index.js"
