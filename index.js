@@ -32,8 +32,9 @@ const { clear } = flags;
 	const chalk = (await import(`chalk`)).default;
 
 	// print Give it a star on github: https://github.com/geekHead-DD/cryptpic with chalk and bgMagenta
-	console.log(
-		chalk.bgMagenta(` Give it a star on github: `) +
-			chalk.bold(` https://github.com/geekHead-DD/cryptpic`)
-	);
+	//uncomment
+	// console.log(
+	// 	chalk.bgMagenta(` Give it a star on github: `) +
+	// 		chalk.bold(` https://github.com/geekHead-DD/cryptpic`)
+	// );
 })();
