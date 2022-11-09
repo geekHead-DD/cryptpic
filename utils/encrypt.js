@@ -162,11 +162,6 @@ const encrypt = async flags => {
 		const key = [];
 		for (let i = 0; i < rgba.length; i++) {
 			key.push(Math.floor(Math.random() * 256));
-			// var hash = 0;
-			// ch = i.toString().charCodeAt(i);
-			// hash = ((hash << 5) - hash) + ch;
-			// hash = hash & hash;
-			// key.push(hash);
 		}
 
 		spinner5.succeed(`Key generated successfully`);
