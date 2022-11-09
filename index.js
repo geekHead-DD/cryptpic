@@ -1,12 +1,5 @@
 #!/usr/bin/env node
 
-/**
- * imcrypt
- * An image encryption node-js cli
- *
- * @author geekHead-DD 
- */
-
 const init = require('./utils/init');
 const cli = require('./utils/cli');
 const encrypt = require('./utils/encrypt');
@@ -31,10 +24,5 @@ const { clear } = flags;
 
 	const chalk = (await import(`chalk`)).default;
 
-	// print Give it a star on github: https://github.com/geekHead-DD/cryptpic with chalk and bgMagenta
-	//uncomment
-	// console.log(
-	// 	chalk.bgMagenta(` Give it a star on github: `) +
-	// 		chalk.bold(` https://github.com/geekHead-DD/cryptpic`)
-	// );
+
 })();
