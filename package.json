@@ -1,14 +1,14 @@
 {
-	"name": "cryptpic",
+	"name": "imgcrypt",
 	"description": "An image encryption node-js cli",
-	"version": "0.2.1",
+	"version": "1.0.0",
 	"license": "MIT",
 	"bin": {
 		"cryptpic": "index.js"
 	},
-	"author": "Debarghya Datta",
+	"author": "Zenia Banerjee",
 	"keywords": [
-		"cryptpic",
+		"imgcrypt",
 		"encrypt",
 		"decrypt",
 		"image",
@@ -30,7 +30,7 @@
 		"cli-handle-unhandled": "^1.1.1",
 		"cli-meow-help": "^2.0.2",
 		"cli-welcome": "^2.2.2",
-		"jimp": "^0.16.1",
+		"jimp": "^0.22.7",
 		"meow": "^9.0.0",
 		"ora": "^6.0.1"
 	},

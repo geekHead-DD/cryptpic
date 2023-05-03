@@ -5,7 +5,7 @@ const unhandled = require('cli-handle-unhandled');
 module.exports = ({ clear = true }) => {
 	unhandled();
 	welcome({
-		title: `cryptpic`,
+		title: `imgcrypt`,
 		tagLine: `by Zenia Banerjee, Shrayosee Roy and Neha Prasad`,
 		description: pkg.description,
 		version: pkg.version,
